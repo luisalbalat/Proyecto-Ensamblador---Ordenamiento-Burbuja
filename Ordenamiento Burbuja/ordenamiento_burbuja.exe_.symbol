@@ -1,0 +1,57 @@
+< THE SYMBOL TABLE >  ordenamiento_burbuja.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATOS                    	00000     	-5        	SEGMENT   	(ITSELF)  
+LISTA_NUMEROS            	00000     	1         	VAR       	DATOS     
+X                        	00008     	1         	VAR       	DATOS     
+Y                        	00009     	1         	VAR       	DATOS     
+PILA                     	00001     	-5        	SEGMENT   	(ITSELF)  
+CODIGO                   	00005     	-5        	SEGMENT   	(ITSELF)  
+INICIO                   	00000     	-1        	FAR       	CODIGO    
+INTRODUCIR_NUMERO        	00095     	-1        	LABEL     	CODIGO    
+PRIMER_BUCLE             	000C2     	-1        	LABEL     	CODIGO    
+SEGUNDO_BUCLE            	000C8     	-1        	LABEL     	CODIGO    
+INTERCAMBIAR             	000D1     	-1        	LABEL     	CODIGO    
+MENOR                    	000D7     	-1        	LABEL     	CODIGO    
+IMPRIMIR_NUMEROS         	00134     	-1        	LABEL     	CODIGO    
+SALIR                    	00158     	-1        	LABEL     	CODIGO    
+CLEAR_SCREEN             	001E6     	-1        	NEAR      	          
+SKIP_PROC_CLEAR_SCREEN_LOC1TMP	00218     	-1        	LABEL     	          
+PTHIS                    	0021A     	-1        	NEAR      	          
+NEXT_CHAR_LOC2TMP        	00221     	-1        	LABEL     	          
+PRINTED_LOC2TMP          	0022F     	-1        	LABEL     	          
+TEMP1_LOC2TMP            	00237     	2         	VAR       	          
+SKIP_PROC_PTHIS_LOC2TMP  	00239     	-1        	LABEL     	          
+SCAN_NUM                 	0023C     	-1        	NEAR      	          
+NEXT_DIGIT_LOC3TMP       	00248     	-1        	LABEL     	          
+NOT_CR_LOC6TMP           	0025B     	-1        	LABEL     	          
+BACKSPACE_CHECKED_LOC4TMP	0027D     	-1        	LABEL     	          
+OK_AE_0_LOC6TMP          	00283     	-1        	LABEL     	          
+REMOVE_NOT_DIGIT_LOC6TMP 	00287     	-1        	LABEL     	          
+OK_DIGIT_LOC6TMP         	002A1     	-1        	LABEL     	          
+SET_MINUS_LOC3TMP        	002BD     	-1        	LABEL     	          
+TOO_BIG2_LOC4TMP         	002C5     	-1        	LABEL     	          
+TOO_BIG_LOC4TMP          	002CA     	-1        	LABEL     	          
+STOP_INPUT_LOC5TMP       	002EE     	-1        	LABEL     	          
+NOT_MINUS_LOC5TMP        	002F8     	-1        	LABEL     	          
+MAKE_MINUS_LOC3TMP       	002FC     	1         	VAR       	          
+TEN_LOC3TMP              	002FD     	2         	VAR       	          
+SKIP_PROC_SCAN_NUM_LOC5TMP	002FF     	-1        	LABEL     	          
+PRINT_NUM                	00301     	-1        	NEAR      	          
+NOT_ZERO_LOC7TMP         	00312     	-1        	LABEL     	          
+POSITIVE_LOC7TMP         	00321     	-1        	LABEL     	          
+PRINTED_LOC7TMP          	00324     	-1        	LABEL     	          
+SKIP_PROC_PRINT_NUM_LOC7TMP	00327     	-1        	LABEL     	          
+PRINT_NUM_UNS            	00329     	-1        	NEAR      	          
+BEGIN_PRINT_LOC8TMP      	00338     	-1        	LABEL     	          
+CALC_LOC8TMP             	00346     	-1        	LABEL     	          
+SKIP_LOC8TMP             	0035A     	-1        	LABEL     	          
+PRINT_ZERO_LOC8TMP       	0036A     	-1        	LABEL     	          
+END_PRINT_LOC8TMP        	00372     	-1        	LABEL     	          
+TEN_LOC8TMP              	00377     	2         	VAR       	          
+SKIP_PROC_PRINT_NUM_UNS_LOC9TMP	00379     	-1        	LABEL     	          
+===================================================================================================
+[ 11/06/23  --  22:42:39 ] 
+< END >
+ 
